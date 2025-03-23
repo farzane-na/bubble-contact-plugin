@@ -22,6 +22,8 @@
 //  define(BUBBLE_CONTACT_ADMIN_FILE,plugin_dir_path( __FILE__ )."include/admin.php");
  define("BUBBLE_CONTACT_PATH",plugin_dir_path( __FILE__ ));
  define("BUBBLE_CONTACT_URL",plugin_dir_URL( __FILE__ ));
+ define("BUBBLE_CONTACT_JS_COLORPICKER",plugin_dir_URL( __FILE__ )."admin/asset/js/admin.js");
+ define("BUBBLE_CONTACT_CSS_COLORPICKER",plugin_dir_URL( __FILE__ )."admin/asset/css/admin.css");
  define("PLUGIN_VERSION","1.0,0");
 
  if ( !defined( 'ABSPATH' ) ) {
