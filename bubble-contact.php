@@ -18,5 +18,12 @@
 
  define(BUBBLE_CONTACT_FRONT_STYLE,plugin_dir_url( __FILE__ )."asset/css/app.css");
  define(BUBBLE_CONTACT_FRONT_SCRIPT,plugin_dir_url( __FILE__ )."asset/js/app.js");
- define(BUBBLE_CONTACT_ADMIN_VIEW,plugin_dir_url( __FILE__ )."view/admin-view.php");
+ define(BUBBLE_CONTACT_ADMIN_VIEW,plugin_dir_url( __FILE__ )."view/admin-view/admin-view.php");
+ define(BUBBLE_CONTACT_FRONT_VIEW,plugin_dir_url( __FILE__ )."view/front-view/front-view.php");
  define(BUBBLE_CONTACT_ADMIN_FILE,plugin_dir_url( __FILE__ )."include/admin.php");
+
+ if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+require_once BUBBLE_CONTACT_ADMIN_FILE;

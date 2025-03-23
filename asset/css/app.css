@@ -1,0 +1,68 @@
+.bubble-contact{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.bubble-contact_btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #3F51B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 10px 10px -3px rgba(0,0,0,0.25);
+}
+.bubble-contact_toggle-btn{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    transition: all 250ms ease-in-out;
+}
+.bubble-contact_toggle-btn.bubble-contact_toggle-btn--open{
+    transform: rotate(-180deg);
+}
+.bubble-contact_list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style-type: none;
+    margin: 0 0 10px 0;
+    width: 35px;
+    height: 0;
+    overflow: hidden;
+    transition: all 250ms ease-in-out;
+    padding: 0;
+    opacity: 0;
+}
+.bubble-contact_list.bubble-contact_list--open{
+    height: auto;
+    padding: 0 2px 10px 2px;
+    opacity: 1;
+    min-height: 20px;
+}
+.bubble-contact_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble-contact_link{
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 10px 10px -3px rgba(0,0,0,0.15);
+    transition: all 150ms ease-in-out;
+}
+.bubble-contact_link:hover{
+    box-shadow: 0 10px 10px -3px rgba(0,0,0,0.25);
+    transform: scale(1.05);
+}
+.bubble-contact_link svg{
+    fill: #03A9F4 !important;
+}
