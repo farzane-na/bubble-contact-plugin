@@ -23,6 +23,6 @@ add_action( "wp_enqueue_scripts", function(){
 
 
 add_action("admin_enqueue_scripts",function(){
-    wp_enqueue_script( "add_script_colorpicker", BUBBLE_CONTACT_JS_COLORPICKER, ['wp_color-picker'],  PLUGIN_VERSION);
-    wp_enqueue_script( "add_script_colorpicker", BUBBLE_CONTACT_CSS_COLORPICKER, ['wp_color-picker'],  PLUGIN_VERSION );
+    wp_enqueue_script( "add_script_colorpicker", BUBBLE_CONTACT_JS_COLORPICKER, ['wp-color-picker'],  PLUGIN_VERSION);
+    wp_enqueue_style( "add_style_colorpicker", BUBBLE_CONTACT_CSS_COLORPICKER, ['wp-color-picker'],  PLUGIN_VERSION );
 });

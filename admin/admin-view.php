@@ -24,17 +24,17 @@
                     </label>
                 </th>
                 <td>
-                    <input type="text" name="bubble-contact-link" id="bubble-contact-link">
+                    <input type="url" placeholder="example.com" name="bubble-contact-link" id="bubble-contact-link">
                 </td>
             </tr>
             <tr>
                 <th>
                     <label for="bubble-contact-color">
-                        <?= __("choose ccolor","bubble-icon") ?>
+                        <?= __("choose color","bubble-icon") ?>
                     </label>
                 </th>
                 <td>
-                    <input type="color" class="bubble-contact-color" name="bubble-contact-color" id="bubble-contact-color">
+                    <input type="input" class="bubble-contact-color" name="bubble-contact-color" id="bubble-contact-color">
                 </td>
             </tr>
         </tbody>

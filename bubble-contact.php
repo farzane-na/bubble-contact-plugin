@@ -15,6 +15,11 @@
  */
 
 
+ function bubble_contact_load_textdomain() {
+    load_plugin_textdomain('bubble-contact', false, dirname(plugin_basename(__FILE__)) . '/languages');
+}
+add_action('plugins_loaded', 'bubble_contact_load_textdomain');
+
 //  define(BUBBLE_CONTACT_FRONT_STYLE,plugin_dir_url( __FILE__ )."asset/css/app.css");
 //  define(BUBBLE_CONTACT_FRONT_SCRIPT,plugin_dir_url( __FILE__ )."asset/js/app.js");
 //  define(BUBBLE_CONTACT_ADMIN_VIEW,plugin_dir_url( __FILE__ )."view/admin-view/admin-view.php");
