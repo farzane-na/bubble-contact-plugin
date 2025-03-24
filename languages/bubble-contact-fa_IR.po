@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bubble contact\n"
-"POT-Creation-Date: 2025-03-24 03:49+0330\n"
-"PO-Revision-Date: 2025-03-24 03:49+0330\n"
+"POT-Creation-Date: 2025-03-24 23:53+0330\n"
+"PO-Revision-Date: 2025-03-24 23:53+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -21,11 +21,15 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: admin/admin-view.php:6
+#: admin/admin-view.php:8
+msgid "Changes saved successfully."
+msgstr "تغییرات با موفقیت ذخیره شدند."
+
+#: admin/admin-view.php:14
 msgid "Bubble Contact"
 msgstr "راه ارتباطی حبابی"
 
-#: admin/admin-view.php:13
+#: admin/admin-view.php:22
 msgid ""
 "class icon from <a href='https://icons.getbootstrap.com/'> bootstrap icon </"
 "a> "
@@ -33,13 +37,17 @@ msgstr ""
 "کلاس آیکون از <a href='https://icons.getbootstrap.com/'> بوت استرپ آیکون </"
 "a> "
 
-#: admin/admin-view.php:23
+#: admin/admin-view.php:32
 msgid "add link"
 msgstr "لینک را اضافه کنید"
 
-#: admin/admin-view.php:33
+#: admin/admin-view.php:42
 msgid "choose color"
 msgstr "رنگ را انتخاب کنید"
+
+#: admin/admin-view.php:51
+msgid "save changes"
+msgstr "ذخیره تغییرات"
 
 #. Plugin Name of the plugin/theme
 #: include/admin.php:6 include/admin.php:7
@@ -51,8 +59,12 @@ msgid "https://github.com/farzane-na/bubble-contact-plugin"
 msgstr "https://github.com/farzane-na/bubble-contact-plugin"
 
 #. Description of the plugin/theme
-msgid "Handle the basics with this plugin."
+msgid ""
+"A plugin that allows you to add your contact information to all pages of "
+"your site with a beautiful appearance."
 msgstr ""
+"افزونه‌ای که با آن می‌توایند راه های ارتباطی خود را با جلوه زیبایی به تمامی "
+"صفحات سایت خود اضافه کنید."
 
 #. Author of the plugin/theme
 msgid "farzane nazmabadi"

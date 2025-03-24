@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       bubble contact
  * Plugin URI:        https://github.com/farzane-na/bubble-contact-plugin
- * Description:       Handle the basics with this plugin.
+ * Description:       A plugin that allows you to add your contact information to all pages of your site with a beautiful appearance.
  * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
