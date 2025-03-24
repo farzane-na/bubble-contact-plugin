@@ -20,11 +20,7 @@
 }
 add_action('plugins_loaded', 'bubble_contact_load_textdomain');
 
-//  define(BUBBLE_CONTACT_FRONT_STYLE,plugin_dir_url( __FILE__ )."asset/css/app.css");
-//  define(BUBBLE_CONTACT_FRONT_SCRIPT,plugin_dir_url( __FILE__ )."asset/js/app.js");
-//  define(BUBBLE_CONTACT_ADMIN_VIEW,plugin_dir_url( __FILE__ )."view/admin-view/admin-view.php");
-//  define(BUBBLE_CONTACT_FRONT_VIEW,plugin_dir_url( __FILE__ )."view/front-view/front-view.php");
-//  define(BUBBLE_CONTACT_ADMIN_FILE,plugin_dir_path( __FILE__ )."include/admin.php");
+
  define("BUBBLE_CONTACT_PATH",plugin_dir_path( __FILE__ ));
  define("BUBBLE_CONTACT_URL",plugin_dir_URL( __FILE__ ));
  define("BUBBLE_CONTACT_JS_COLORPICKER",plugin_dir_URL( __FILE__ )."admin/asset/js/admin.js");

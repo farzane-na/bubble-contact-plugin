@@ -10,22 +10,22 @@ if(get_option( "bubble-contact-option" )){
         <ul class="bubble-contact_list">
             <li class="bubble-contact_item">
                 <a href="<?= $geting_bubble_options["bubble_1"][1] ? $geting_bubble_options["bubble_1"][1] : '#' ?>" class="bubble-contact_link">
-                    <i class="bi bi-<?= $geting_bubble_options["bubble_1"][0] ? $geting_bubble_options["bubble_1"][0] : 'telephone'  ?>" style="color:<?= $geting_bubble_options["bubble_1"][2] ? $geting_bubble_options["bubble_1"][2] : '#000' ?> !important;"></i>
+                    <i class="bi <?= $geting_bubble_options["bubble_1"][0] ? $geting_bubble_options["bubble_1"][0] : 'telephone'  ?>" style="color:<?= $geting_bubble_options["bubble_1"][2] ? $geting_bubble_options["bubble_1"][2] : '#000' ?> !important;"></i>
                 </a>
             </li>
             <li class="bubble-contact_item">
                 <a href="<?= $geting_bubble_options["bubble_2"][1] ? $geting_bubble_options["bubble_2"][1] : '#' ?>" class="bubble-contact_link">
-                    <i class="bi bi-<?= $geting_bubble_options["bubble_2"][0] ? $geting_bubble_options["bubble_2"][0] : 'telephone'  ?>" style="color:<?= $geting_bubble_options["bubble_2"][2] ? $geting_bubble_options["bubble_2"][2] : '#000' ?> !important;"></i>
+                    <i class="bi <?= $geting_bubble_options["bubble_2"][0] ? $geting_bubble_options["bubble_2"][0] : 'telephone'  ?>" style="color:<?= $geting_bubble_options["bubble_2"][2] ? $geting_bubble_options["bubble_2"][2] : '#000' ?> !important;"></i>
                 </a>
             </li>
             <li class="bubble-contact_item">
                 <a href="<?= $geting_bubble_options["bubble_3"][1] ? $geting_bubble_options["bubble_3"][1] : '#' ?>" class="bubble-contact_link">
-                    <i class="bi bi-<?= $geting_bubble_options["bubble_3"][0] ? $geting_bubble_options["bubble_3"][0] : 'telephone'  ?>" style="color:<?= $geting_bubble_options["bubble_3"][2] ? $geting_bubble_options["bubble_3"][2] : '#000' ?> !important;"></i>
+                    <i class="bi <?= $geting_bubble_options["bubble_3"][0] ? $geting_bubble_options["bubble_3"][0] : 'telephone'  ?>" style="color:<?= $geting_bubble_options["bubble_3"][2] ? $geting_bubble_options["bubble_3"][2] : '#000' ?> !important;"></i>
                 </a>
             </li>
             <li class="bubble-contact_item">
                 <a href="<?= $geting_bubble_options["bubble_4"][1] ? $geting_bubble_options["bubble_4"][1] : '#' ?>" class="bubble-contact_link">
-                    <i class="bi bi-<?= $geting_bubble_options["bubble_4"][0] ? $geting_bubble_options["bubble_4"][0] : 'telephone'  ?>" style="color:<?= $geting_bubble_options["bubble_4"][2] ? $geting_bubble_options["bubble_4"][2] : '#000' ?> !important;"></i>
+                    <i class="bi <?= $geting_bubble_options["bubble_4"][0] ? $geting_bubble_options["bubble_4"][0] : 'telephone'  ?>" style="color:<?= $geting_bubble_options["bubble_4"][2] ? $geting_bubble_options["bubble_4"][2] : '#000' ?> !important;"></i>
                 </a>
             </li>
         </ul>
