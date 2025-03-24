@@ -29,6 +29,7 @@ add_action('plugins_loaded', 'bubble_contact_load_textdomain');
  define("BUBBLE_CONTACT_URL",plugin_dir_URL( __FILE__ ));
  define("BUBBLE_CONTACT_JS_COLORPICKER",plugin_dir_URL( __FILE__ )."admin/asset/js/admin.js");
  define("BUBBLE_CONTACT_CSS_COLORPICKER",plugin_dir_URL( __FILE__ )."admin/asset/css/admin.css");
+ define("BUBBLE_CONTACT_ADMIN_VIEW_CSS",plugin_dir_URL( __FILE__ )."admin/asset/css/view.css");
  define("PLUGIN_VERSION","1.0,0");
 
  if ( !defined( 'ABSPATH' ) ) {
