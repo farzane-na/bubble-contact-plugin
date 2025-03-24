@@ -3,14 +3,14 @@
 
 
 ?>
-<h1><?= __("Bubble Contact"); ?></h1>
+<h1><?= __("Bubble Contact","bubble-contact"); ?></h1>
 <form action="" method="post">
     <table class="form-table">
         <tbody>
             <tr>
                 <th>
                     <label for="bubble-contact-icon">
-                        <?= __("class icon from <a href='https://icons.getbootstrap.com/'> bootstrap icon </a> " , "bubble-icon") ?>
+                        <?= __("class icon from <a href='https://icons.getbootstrap.com/'> bootstrap icon </a> " , "bubble-contact") ?>
                     </label>
                 </th>
                 <td>
@@ -20,7 +20,7 @@
             <tr>
                 <th>
                     <label for="bubble-contact-link">
-                        <?= __("add link","bubble-icon") ?>
+                        <?= __("add link","bubble-contact") ?>
                     </label>
                 </th>
                 <td>
@@ -30,7 +30,7 @@
             <tr>
                 <th>
                     <label for="bubble-contact-color">
-                        <?= __("choose color","bubble-icon") ?>
+                        <?= __("choose color","bubble-contact") ?>
                     </label>
                 </th>
                 <td>

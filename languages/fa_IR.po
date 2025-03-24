@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bubble contact\n"
-"POT-Creation-Date: 2025-03-24 03:40+0330\n"
-"PO-Revision-Date: 2025-03-24 03:40+0330\n"
+"POT-Creation-Date: 2025-03-24 03:48+0330\n"
+"PO-Revision-Date: 2025-03-24 03:48+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -30,16 +30,16 @@ msgid ""
 "class icon from <a href='https://icons.getbootstrap.com/'> bootstrap icon </"
 "a> "
 msgstr ""
-";کلاس آیکون از <a href='https://icons.getbootstrap.com/'> بوت استرپ آیکون </"
+"کلاس آیکون از <a href='https://icons.getbootstrap.com/'> بوت استرپ آیکون </"
 "a> "
 
 #: admin/admin-view.php:23
 msgid "add link"
-msgstr "اضافه کردن لینک"
+msgstr "لینک را اضافه کنید"
 
 #: admin/admin-view.php:33
 msgid "choose color"
-msgstr "انتخاب رنگ"
+msgstr "رنگ را انتخاب کنید"
 
 #. Plugin Name of the plugin/theme
 #: include/admin.php:6 include/admin.php:7
