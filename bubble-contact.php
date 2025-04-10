@@ -37,3 +37,16 @@ require_once BUBBLE_CONTACT_PATH."include/admin.php";
 add_action("wp_head",function(){
     echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">' ;
 });
+
+
+register_activation_hook( __FILE__, function(){
+    if(!get_option("bubble-contact-option")){
+        $bubble_contact_Default_value=[
+            "bubble_1"=> array("bi bi-telegram","#","#1AB7EA"),
+            "bubble_2"=> array("bi bi-whatsapp","#","#1AB7EA"),
+            "bubble_3"=> array("bi bi-github","#","#1AB7EA"),
+            "bubble_4"=> array("bi bi-linkedin","#","#1AB7EA"),
+        ];
+        add_option( "bubble-contact-option", $bubble_contact_Default_value );
+    };
+});
