@@ -1,3 +1,15 @@
 <?php 
-define("WP_UNINSTALL_PLUGIN") || exit;
-delete_option( "bubble-contact-option" );
+if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
+    die;
+}
+
+$option_name = 'bubble-contact-option';
+
+delete_option( $option_name );
+
+// for site options in Multisite
+delete_site_option( $option_name );
+
+// drop a custom database table
+global $wpdb;
+$wpdb->query( "DROP TABLE IF EXISTS {$wpdb->prefix}mytable" );
